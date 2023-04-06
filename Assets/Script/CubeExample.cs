@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class CubeExample : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //Debug.Log("OnCollisionEnter" + 1)
+    void OnCollisionEnter(Collision collision)
     {
-        private void OnCollisionEnter(Collision collision)
-        {
-            count = count - 1;
-            Debug.Log("OnCollisionEnter" + 1);
-        }
+        Debug.Log("Collision" + 1);
     }
+
+
 
     // Update is called once per frame
     void Update()
