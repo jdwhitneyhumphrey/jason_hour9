@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class CubeExample : MonoBehaviour
 {
-    //Debug.Log("OnCollisionEnter" + 1)
+    //Debug.Log("Collision" + 1)
     void OnCollisionEnter(Collision collision)
+
     {
-        Debug.Log("Collision" + 1);
+        int count = 10;
+        count = count + 1;
+        Debug.Log("Collision");
+        print( + 1);
+        count++;
     }
 
 
