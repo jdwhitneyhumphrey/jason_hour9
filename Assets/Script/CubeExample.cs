@@ -7,12 +7,13 @@ public class CubeExample : MonoBehaviour
     //Debug.Log("Collision" + 1)
     void OnCollisionEnter(Collision collision)
 
+    
     {
-        int count = 10;
-        count = count + 1;
+        int collisionCount = 10;
+        collisionCount = collisionCount + 1;
         Debug.Log("Collision");
         print( + 1);
-        count++;
+        collisionCount += 1;
     }
 
 
